@@ -3,14 +3,47 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
-	border: 2px solid blue;
+	font-family: sans-serif;
 	}
 
-header {
+/* NAVIGATION STYLES */	
+
+.nav {
+margin: 0;
+padding: 0;
+
+}
+
+.nav ul li:first-child {
+	float: left;
+}
+
+.nav ul li {
+	float: right;
+
+}
+.nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav ul {
 	background-color: #f88379;
-	margin:0 auto;
-	padding: 5% 0;
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#nav_name {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.contact {
+	padding-right: 30px;
+	color: #f8e379;
 }
 
 h1 {
@@ -20,11 +53,15 @@ h1 {
 h4 {
 	margin: 0;
 }
-.container {
-	margin: 0 auto;
-	padding: 0;
-	width: 90%;
+
+/* HEADER STYLES */
+
+header {
+	background-color: #f88379;
+	margin:0 auto;
+	padding: 10% 0;
 }
+
 
 
 
@@ -46,6 +83,13 @@ h4 {
 }
 
 
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	color: black;
+}
 .projects_container {
 	color: black;
 }
@@ -79,8 +123,8 @@ h4 {
 }
 
 .gh_logo {
-	height: 75px;
-	width: 75px;
+	height: 30px;
+	width: 30px;
 }
 
 a:link {
