@@ -1,15 +1,92 @@
 body {
-	color: #43;
-}
-
-.container {
-	text-align: left;
+	color: #fff;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	font-family: sans-serif;
-	width: 640px;
-	margin: 0 auto;
+	border: 2px solid blue;
+	}
+
+header {
+	background-color: #f88379;
+	margin:0 auto;
+	padding: 5% 0;
 }
 
-a {
+h1 {
+	margin: 0;
+}
+
+h4 {
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+}
+
+
+
+/* a {
 	text-decoration: none;
 	color: deepskyblue;
+} */
+
+#title_name {
+	font-size: 4em;
+	padding-bottom: 0;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	}
+
+#title_name,
+#tagline {
+	text-align: center;
+}
+
+
+.projects_container {
+	color: black;
+}
+
+.projects_container ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.projects_container li {
+	display: inline-block;
+	width: 175px;
+	height: 200px;
+	vertical-align: top;
+	text-align: center;
+	padding: 0 5%;
+
+}
+
+.project_image {
+	width: 150px;
+	height: 150px;
+	background-color: #f8c379;
+	margin: 5% auto;
+}
+
+.contacts_container p {
+	margin: 0;
+	width: 80px;
+	text-align: center;
+}
+
+.gh_logo {
+	height: 75px;
+	width: 75px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #f8e379 ;
 }
