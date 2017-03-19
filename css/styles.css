@@ -122,7 +122,8 @@ header {
 	text-align: center;
 }
 
-.gh_logo {
+.gh_logo,
+.email_logo {
 	height: 30px;
 	width: 30px;
 }
