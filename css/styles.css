@@ -1,0 +1,15 @@
+body {
+	color: #43;
+}
+
+.container {
+	text-align: left;
+	font-family: sans-serif;
+	width: 640px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: deepskyblue;
+}
