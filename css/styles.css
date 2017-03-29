@@ -78,7 +78,8 @@ header {
 	}
 
 #title_name,
-#tagline {
+#tagline,
+.container {
 	text-align: center;
 }
 
@@ -89,6 +90,7 @@ header {
 	padding: 0;
 	width: 90%;
 	color: black;
+	te
 }
 .projects_container {
 	color: black;
@@ -135,4 +137,13 @@ a:link {
 
 a:visited {
 	color: #b5b5b5 ;
+}
+
+.nav a:visited,
+header a:visited {
+	color: #FFF;
+}
+
+#daveicon {
+	font-size: 9px;
 }
