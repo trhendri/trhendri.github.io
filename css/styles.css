@@ -6,6 +6,12 @@ body {
 	font-family: sans-serif;
 	}
 
+
+h3 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding-top: 2%;
+}
 /* NAVIGATION STYLES */	
 
 .nav {
@@ -90,7 +96,6 @@ header {
 	padding: 0;
 	width: 90%;
 	color: black;
-	te
 }
 .projects_container {
 	color: black;
@@ -120,7 +125,6 @@ header {
 
 .contacts_container p {
 	margin: 0;
-	width: 80px;
 	text-align: center;
 }
 
