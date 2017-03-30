@@ -123,6 +123,14 @@ header {
 	margin: 5% auto;
 }
 
+/*   MUSIC SECTION     */
+#music_container {
+	disply: block;
+}
+
+
+
+/*CONTACTS SECTION*/
 .contacts_container p {
 	margin: 0;
 	text-align: center;
@@ -150,4 +158,23 @@ header a:visited {
 
 #daveicon {
 	font-size: 9px;
+}
+
+/* MUSIC PAGE */
+
+.music_container {
+	width: 100%;
+}
+
+.vid_container {
+	display: inline-block;
+
+	border: 2px solid black;
+}
+
+#current_jams,
+#nostalgic_jams {
+display: inline-block;
+width: 40%;
+
 }
