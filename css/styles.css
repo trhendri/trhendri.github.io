@@ -87,7 +87,9 @@ width: 100%;
 }
 
 .jumbotron .h1, .jumbotron h1,
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-brand,
+ .navbar-inverse .navbar-nav>li>a,
+ h1 {
 	text-transform: uppercase;
 }
 
@@ -267,7 +269,73 @@ body {
 
 
 /*     MUSIC / WHAT IM LISTENING TO PAGE     */
-
 .music_container {
-	margin: 2%;
+	margin-top: 2%;
 }
+
+.about_container,
+.music_container{
+	padding-bottom: 8%;
+
+}
+
+/*     ABOUT PAGE SECTION / PAGE / STYLES / WHATEVER     */
+
+
+
+.about_container {
+	font-size: 1.5em;
+	margin-top: ;
+}
+
+#profile_img {
+	padding-bottom: 5%;
+}
+#about_blurb {
+	font-size: 1.3em;
+}
+.about_container h2 {
+	margin-top: 8%;
+}
+
+
+#music_link {
+	border-bottom-color: deepskyblue;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	text-transform: uppercase;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+
+#music_link_p {
+	font-size: 1.5em;
+	padding-top: 2%;
+}
+
+#email_link {
+	font-size: 1.4em;
+}
+
+.med_logo {
+	height: 70px;
+	width: 70px;
+}
+
+.figure {
+	display: inline-block;
+	padding: 10px;
+}
+
+
+.resources_container p {
+	font-size: 1.5em;
+
+
+}
+
+.resources_container h4 {
+	padding: 20px;
+}
+
