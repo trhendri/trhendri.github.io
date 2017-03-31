@@ -1,6 +1,8 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	width:100%;
+	font-size: 1em;
 }
 .container {
 	text-align: center;
@@ -37,7 +39,7 @@ padding: 0;
 }
 
 .navbar-brand {
-	font-size: 22px;
+	font-size: 1.5em;
 	line-height: 26px;
 }
 
@@ -51,7 +53,7 @@ padding: 0;
 }
 
 .jumbotron h1 {
-	font-size: 5em; 
+	font-size: 4em; 
 }
 .nav > a > li {
 	display: inline-block;
@@ -181,6 +183,15 @@ body {
 	.navbar-inverse {
 	background-color: #f88379;
 	border-color: #f88379;
+}
+
+#online-learning {
+	border-left: transparent;
+	border-right: transparent;
+}
+
+#design-concepts {
+	border-top: transparent;
 }
 
 	.email_logo,
