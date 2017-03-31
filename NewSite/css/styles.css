@@ -1,17 +1,22 @@
 
+
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	font-size: 1em;
+
 }
+
 .container {
 	text-align: center;
-	width: 100%;
+	width: 90%;
 }
 
 
 .navbar ul {
 	color: white;
+	
 	
 }
 
@@ -191,7 +196,7 @@ body {
 }
 
 .jumbotron {
-	margin-top: 10%;
+	padding-top: 10%;
 }
 
 #online-learning {
