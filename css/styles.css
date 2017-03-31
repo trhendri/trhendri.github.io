@@ -20,6 +20,15 @@ body {
 /*     NAV / JUMBOTRON EDITS     */
 
 
+.nav_th_logo,
+.nav_brand {
+	padding-right: 10px;
+	padding-top: 7px;
+}
+
+.nav_th_logo {
+	float: left;
+}
 
 .navbar ul {
 	color: white;
@@ -54,6 +63,7 @@ padding: 0;
 
 .navbar-brand {
 	font-size: 1.5em;
+	margin-top: 6px;
 }
 
 .navbar-brand,
@@ -203,7 +213,9 @@ body {
 	border-color: transparent;
 }
 
-
+.nav_th_logo {
+	padding-right: 0 ;
+}
 
 .container {
 	margin: 0 auto;
@@ -254,3 +266,8 @@ body {
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
+/*     MUSIC / WHAT IM LISTENING TO PAGE     */
+
+.music_container {
+	margin: 2%;
+}
