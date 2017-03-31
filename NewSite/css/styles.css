@@ -1,17 +1,19 @@
-
-
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	font-size: 1em;
+	margin: 0 auto;
 
 }
 
+
+.container {
+	width: 100%;
+}
 .container {
 	text-align: center;
-	width: 90%;
-	margin: 0;
+
+	
 }
 
 
@@ -46,15 +48,14 @@ padding: 0;
 }
 
 .navbar-brand {
-	font-size: 1.5em;
-	line-height: 20px;
+	font-size: 1em;
 }
 
 .navbar-brand,
 .jumbotron h1 {
 	font-family: 'Roboto',sans-serif ; 	
 	font-weight: 700;
-	letter-spacing: 8px;
+	letter-spacing: 5px;
 }
 
 
@@ -104,8 +105,12 @@ width: 100%;
 	background-color: #f99991;
 }
 .navbar-inverse {
-	background-color: transparent;/*#f88d379;*/
+	
 	border-color: transparent;/*#f88379;*/
+	background: #f88379; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #faa69e ,  #f88379); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .nav > a > li:hover {
@@ -123,7 +128,6 @@ width: 100%;
 .jumbotron {
  /*coralish*/
 	color: #fff;
-	padding: 5%;
 
 	background: #f88379; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #faa69e ,  #f88379); /* Chrome 10-25, Safari 5.1-6 */
@@ -138,14 +142,8 @@ background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, F
 
 /*    ONLINE LEARNING SECTION     */
 
-#online-learning {
-	border-left: 1px solid lightgrey;
-	border-right: 1px solid lightgrey;
-}
 
-#design-concepts {
-	border-top: 1px solid lightgrey;
-}
+
 
 
 
@@ -192,12 +190,15 @@ body {
 	}
 
 	.navbar-inverse {
-	background-color: #f88379;
+	/*background-color: #f88379;*/
 	border-color: #f88379;
 }
 
+
+
 .jumbotron {
-	padding-top: 10%;
+	margin-top: 25px;
+
 }
 
 #online-learning {
