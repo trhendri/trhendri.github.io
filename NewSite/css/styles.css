@@ -48,7 +48,7 @@ padding: 0;
 }
 
 .navbar-brand {
-	font-size: 1em;
+	font-size: 2em;
 }
 
 .navbar-brand,
@@ -172,7 +172,6 @@ body {
 
 .jumbotron {
 	margin : 0 auto;
-	padding: 0;
 }
 
 
