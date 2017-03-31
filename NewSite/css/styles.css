@@ -55,7 +55,7 @@ padding: 0;
 .jumbotron h1 {
 	font-family: 'Roboto',sans-serif ; 	
 	font-weight: 700;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
 
@@ -93,7 +93,7 @@ width: 100%;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color:#f88379;
+	border-color:#f8e379;
 }
 .navbar-inverse .navbar-toggle{
 	border-color: #f8e379;
@@ -166,9 +166,14 @@ body {
   background-color: #f5f5f5;
 }
 
+.container {
+	width: 90%;
+}
 
-
-
+.jumbotron {
+	margin : 0 auto;
+	padding: 0;
+}
 
 
 
@@ -191,10 +196,14 @@ body {
 
 	.navbar-inverse {
 	/*background-color: #f88379;*/
-	border-color: #f88379;
+	border-color: transparent;
 }
 
 
+
+.container {
+	margin: 0 auto;
+}
 
 .jumbotron {
 	margin-top: 25px;
