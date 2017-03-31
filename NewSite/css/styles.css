@@ -40,7 +40,7 @@ padding: 0;
 
 .navbar-brand {
 	font-size: 1.5em;
-	line-height: 26px;
+	line-height: 20px;
 }
 
 .navbar-brand,
@@ -187,6 +187,10 @@ body {
 	.navbar-inverse {
 	background-color: #f88379;
 	border-color: #f88379;
+}
+
+.jumbotron {
+	margin-top: 10%;
 }
 
 #online-learning {
