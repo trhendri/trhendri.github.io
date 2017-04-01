@@ -1,20 +1,31 @@
+body {
+  padding-top: 100px;
+  
+  	font-family: 'Open Sans', sans-serif;
+  	color: #fff;
+}
+
+
+body,
+.navbar-inverse {
+	
+	border-color: transparent;/*#f88379;*/
+	background:  #f88379; /* fallback for old browsers */ CORAL
+background: -webkit-linear-gradient(to left, #faa69e ,  #f88379); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 /*     BASE EDITS     */
 
-body {
-	font-family: 'Open Sans', sans-serif;
-	width: 100%;
-	margin: 0 auto;
-	font-size: 1em;
- 
-}
+
 .body_bg{
 background-color: #f88379;
 }
 
 
 .index_container {
-padding-top: 200px;
+padding-top: 8%;
 
 }
 
@@ -53,18 +64,9 @@ padding-top: 200px;
 }
 
 
-/*     NAV / JUMBOTRON EDITS     */
+/*     NAV / EDITS     */
 
 
-.nav_th_logo,
-.nav_brand {
-	padding-right: 10px;
-	padding-top: 7px;
-}
-
-.nav_th_logo {
-	float: left;
-}
 
 .navbar ul {
 	color: white;
@@ -90,42 +92,55 @@ padding: 0;
 	
 }
 
-.github_logo,
-.email_logo,
-.music_logo {
-	height: 30px;
-	width: 30px;
-}
-
 .navbar-brand {
 	font-size: 1.5em;
-	margin-top: 6px;
+	font-family: 'Roboto',sans-serif ; 	
+	letter-spacing: 3px;	
 }
+
+.nav_brand {
+	padding-right: 10px;
+	padding-top: 7px;
+}
+
 
 .navbar-brand,
-.jumbotron h1 {
-	font-family: 'Roboto',sans-serif ; 	
+.nav > a {
 	font-weight: 700;
-	letter-spacing: 3px;
+	font-family:  'Roboto', sans-serif;
 }
 
 
-.jumbotron {
-width: 100%;
-
-}
-
-.jumbotron h1 {
-	font-size: 4em; 
-}
 .nav > a > li {
 	display: inline-block;
+	text-transform:uppercase;
 }
 
-.jumbotron .h1, .jumbotron h1,
+
+.nav > a > li {
+	padding: 15px 15px;
+	text-decoration: 2px solid yellow;
+	
+}
+
+.nav > a:visited {
+	color: #fff;
+}
+
+/*.nav > a > li:hover {
+border-bottom-color: #f8e379;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+*/
+
+ .navbar-fixed-top {
+	padding-top: 20px;
+}
+
 .navbar-inverse .navbar-brand,
- .navbar-inverse .navbar-nav>li>a,
- h1 {
+ .navbar-inverse .navbar-nav>li>a {
 	text-transform: uppercase;
 }
 
@@ -157,36 +172,14 @@ width: 100%;
 .navbar-inverse .navbar-toggle:hover {
 	background-color: #f99991;
 }
-.navbar-inverse {
-	
-	border-color: transparent;/*#f88379;*/
-	background: #f88379; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #faa69e ,  #f88379); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 
-.nav > a > li:hover {
-}
-
-.nav > a > li {
-	padding: 10px 15px;
-	
-}
 
 
 
 /*     JUMBOTRON     */
 
-.jumbotron {
- /*coralish*/
-	color: #fff;
 
-	background: #f88379; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #faa69e ,  #f88379); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
 
 
 #projects .col {
@@ -223,27 +216,23 @@ body {
 	width: 90%;
 }
 
-.jumbotron {
-	margin : 0 auto;
-}
 
 
 
 
 
 @media (max-width: 767px) {
+
+	 .navbar-fixed-top {
+	/*padding-top: 20px;*/
+}
 	.nav > a {
 		padding: 8px 15px;
 	}
 	.nav > a > li{
  	position: relative;
- 	display: inline-block;
-  	padding:12px;
-	}
-	.nav > a > li:hover {
-	border-bottom-color: #f8e379;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
+ 	display: block;
+  	padding:4px;
 	}
 
 	.navbar-inverse {
@@ -251,18 +240,11 @@ body {
 	border-color: transparent;
 }
 
-.nav_th_logo {
-	padding-right: 0 ;
-}
 
 .container {
 	margin: 0 auto;
 }
 
-.jumbotron {
-	margin-top: 25px;
-
-}
 
 #online-learning {
 	border-left: transparent;
