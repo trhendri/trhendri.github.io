@@ -263,26 +263,24 @@ body {
 }
 
 .jumbotron {
-	margin : 0 auto;
+margin-top: 25px;
 }
 
 
 
 
-
 @media (max-width: 767px) {
+
+	 .navbar-fixed-top {
+	/*padding-top: 20px;*/
+}
 	.nav > a {
 		padding: 8px 15px;
 	}
 	.nav > a > li{
  	position: relative;
- 	display: inline-block;
-  	padding:12px;
-	}
-	.nav > a > li:hover {
-	border-bottom-color: #f8e379;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
+ 	display: block;
+  	padding:4px;
 	}
 
 	.navbar-inverse {
@@ -290,18 +288,11 @@ body {
 	border-color: transparent;
 }
 
-.nav_th_logo {
-	padding-right: 0 ;
-}
 
 .container {
 	margin: 0 auto;
 }
 
-.jumbotron {
-	margin-top: 25px;
-
-}
 
 #online-learning {
 	border-left: transparent;
