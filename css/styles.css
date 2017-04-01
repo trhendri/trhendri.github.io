@@ -129,6 +129,58 @@ width: 100%;
 	text-transform: uppercase;
 }
 
+
+
+
+
+
+.navbar-brand,
+.nav > a {
+	font-weight: 700;
+	font-family:  'Roboto', sans-serif;
+}
+
+
+
+
+
+
+/*.nav > a > li:hover {
+border-bottom-color: #f8e379;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+*/
+
+.navbar-fixed-top {
+	padding-top: 20px;
+}
+
+.nav > a > li {
+	display: inline-block;
+	text-transform:uppercase;
+}
+
+
+.nav > a > li {
+	padding: 15px 15px;
+	text-decoration: 2px solid yellow;
+	
+}
+
+.nav > a > li:hover {
+}
+
+.nav > a > li {
+	padding: 10px 15px;
+	
+}
+
+.nav > a:visited {
+	color: #fff;
+}
+
+
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav>li>a {
 	color: #fff;
@@ -166,13 +218,7 @@ background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, F
 
 }
 
-.nav > a > li:hover {
-}
 
-.nav > a > li {
-	padding: 10px 15px;
-	
-}
 
 
 
