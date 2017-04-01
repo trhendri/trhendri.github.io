@@ -363,6 +363,7 @@ margin-top: 30px;
 }
 #about_blurb {
 	font-size: 1.3em;
+	text-align: left;
 }
 .about_container h2 {
 	margin-top: 8%;
