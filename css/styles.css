@@ -56,26 +56,7 @@ padding-top: 200px;
 /*     NAV / JUMBOTRON EDITS     */
 
 
-.nav_th_logo,
-.nav_brand {
-	padding-right: 10px;
-	padding-top: 7px;
-}
 
-.nav_th_logo {
-	float: left;
-}
-
-.navbar ul {
-	color: white;
-	
-	
-}
-
-.navbar ul,
-.contact li {
-	list-style-type: none;
-}
 
 
 .contact {
@@ -90,24 +71,8 @@ padding: 0;
 	
 }
 
-.github_logo,
-.email_logo,
-.music_logo {
-	height: 30px;
-	width: 30px;
-}
 
-.navbar-brand {
-	font-size: 1.5em;
-	margin-top: 6px;
-}
 
-.navbar-brand,
-.jumbotron h1 {
-	font-family: 'Roboto',sans-serif ; 	
-	font-weight: 700;
-	letter-spacing: 3px;
-}
 
 
 .jumbotron {
@@ -159,6 +124,7 @@ border-bottom-color: #f8e379;
 .nav > a > li {
 	display: inline-block;
 	text-transform:uppercase;
+
 }
 
 
@@ -173,6 +139,7 @@ border-bottom-color: #f8e379;
 
 .nav > a > li {
 	padding: 10px 15px;
+	font-size: 1.4em;
 	
 }
 
@@ -219,8 +186,34 @@ background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, F
 }
 
 
+.navbar-brand {
+	font-size: 2em;
+	margin-top: 6px;
+}
+
+.navbar-brand,
+.jumbotron h1 {
+	font-family: 'Roboto',sans-serif ; 	
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.nav_brand {
+	padding-right: 10px;
+	padding-top: 7px;
+}
 
 
+.navbar ul {
+	color: white;
+	
+	
+}
+
+.navbar ul,
+.contact li {
+	list-style-type: none;
+}
 
 /*     JUMBOTRON     */
 
