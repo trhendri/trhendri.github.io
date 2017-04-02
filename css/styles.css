@@ -361,7 +361,7 @@ margin-top: 30px;
 
 
 .about_container {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 #profile_img {
@@ -369,10 +369,10 @@ margin-top: 30px;
 }
 #about_blurb {
 	font-size: 1.1em;
-	text-align: left;
 	padding: 0 15%;
 }
-.about_container h2 {
+.about_container h4{
+padding-top: 10px;
 }
 
 
@@ -396,8 +396,13 @@ margin-top: 30px;
 }
 
 .med_logo {
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
+}
+
+#profile_img {
+	width: 300px;
+	
 }
 
 .figure {
