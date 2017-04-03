@@ -127,6 +127,10 @@ padding: 0;
 	color: #fff;
 }
 
+.nav > a {
+	color: #fff;
+}
+
 /*.nav > a > li:hover {
 border-bottom-color: #f8e379;
 	border-bottom-style: solid;
