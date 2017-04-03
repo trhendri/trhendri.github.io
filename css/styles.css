@@ -302,10 +302,19 @@ margin-top: 2px;
 }
 
 .about_container,
-.music_container{
+.music_container
+.process_container{
 	padding-bottom: 2% ;
 	margin-top: 2%;
 
+}
+
+.process_container {
+	text-align: left;
+}
+
+.process_container .figure {
+	padding-left: 0;
 }
 
 /*     ABOUT PAGE SECTION / PAGE / STYLES / WHATEVER     */
