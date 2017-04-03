@@ -278,66 +278,7 @@ margin-top: 2px;
 }
 
 
-@media (max-width: 767px) {
 
-	 .navbar-fixed-top {
-	/*padding-top: 20px;*/
-}
-
-.jumbotron {
-margin-top: 30px;
-}
-	.nav > a {
-		padding: 8px 15px;
-	}
-	.nav > a > li{
- 	position: relative;
- 	display: block;
-  	padding:4px;
-	}
-
-	.navbar-inverse {
-	/*background-color: #f88379;*/
-	border-color: transparent;
-}
-
-
-.container {
-	margin: 0 auto;
-}
-
-
-#online-learning {
-	border-left: transparent;
-	border-right: transparent;
-}
-
-#design-concepts {
-	border-top: transparent;
-}
-
-	.email_logo,
-	.github_logo,
-	.music_logo {
-   	 position: relative;
-     -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-	}
-		@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-		@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); 
-	} }
-	
-
-	.projects_container .col-md-5 {
-		padding: 0;
-	}
-	.projects_container .col-md-3 {
-		padding-bottom: 10px;
-	}
-
-}
 
 /* The animation code */
 .nav > a > li:hover,
@@ -493,3 +434,69 @@ padding-top: 10px;
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
+
+@media (max-width: 767px) {
+
+	 .navbar-fixed-top {
+	/*padding-top: 20px;*/
+}
+
+.jumbotron {
+margin-top: 30px;
+}
+	.nav > a {
+		padding: 8px 15px;
+	}
+	.nav > a > li{
+ 	position: relative;
+ 	display: block;
+  	padding:4px;
+	}
+
+	.navbar-inverse {
+	/*background-color: #f88379;*/
+	border-color: transparent;
+}
+
+
+.container {
+	margin: 0 auto;
+}
+
+
+#online-learning {
+	border-left: transparent;
+	border-right: transparent;
+}
+
+#design-concepts {
+	border-top: transparent;
+}
+
+	.email_logo,
+	.github_logo,
+	.music_logo {
+   	 position: relative;
+     -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+	}
+		@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+		@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); 
+	} }
+	
+
+	.projects_container .col-md-5 {
+		padding: 0;
+	}
+	.projects_container .col-md-3 {
+		padding-bottom: 10px;
+	}
+
+	#about_blurb {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+}
