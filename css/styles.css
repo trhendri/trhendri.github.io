@@ -381,6 +381,7 @@ margin-top: 30px;
 #about_blurb {
 	font-size: 1.1em;
 	padding: 0 15%;
+	text-align: left;
 }
 .about_container h4{
 padding-top: 10px;
