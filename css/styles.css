@@ -328,6 +328,11 @@ margin-top: 30px;
 	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); 
 	} }
 	
+
+.projects_container .col-md-5 {
+	padding: 0;
+}
+
 }
 
 /* The animation code */
@@ -432,11 +437,11 @@ padding-top: 10px;
 
 
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
+
 .carousel {
   height: 300px;
   margin-bottom: 60px;
