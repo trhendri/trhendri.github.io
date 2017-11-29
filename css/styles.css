@@ -23,6 +23,7 @@ padding-top: 200px;
 .home {
   padding: 40px 15px;
   text-align: center;
+
 }
 
 #initials{
@@ -92,6 +93,7 @@ width: 100%;
  .navbar-inverse .navbar-nav>li>a,
  h1 {
 	text-transform: uppercase;
+
 }
 
 
@@ -152,6 +154,13 @@ border-bottom-color: #f8e379;
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav>li>a {
 	color: #fff;
+
+}
+
+.navbar-inverse, h1 {
+	text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+     0px 8px 13px rgba(0,0,0,0.1),
+     0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,

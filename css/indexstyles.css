@@ -13,7 +13,9 @@ body,
 	background:  #f88379; /* fallback for old browsers */ CORAL
 background: -webkit-linear-gradient(to left, #faa69e ,  #f88379); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #faa69e,  #f88379); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+     0px 8px 13px rgba(0,0,0,0.1),
+     0px 18px 23px rgba(0,0,0,0.1);
 }
 
 /*     BASE EDITS     */
@@ -34,6 +36,9 @@ padding-top: 8%;
 .home {
   padding: 40px 15px;
   text-align: center;
+  text-shadow: 0 4px 3px rgba(0,0,0,0.7),
+     0px 8px 13px rgba(0,0,0,0.3),
+     0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #initials{
@@ -70,6 +75,7 @@ padding-top: 8%;
 
 .navbar ul {
 	color: white;
+
 	
 	
 }
@@ -77,6 +83,7 @@ padding-top: 8%;
 .navbar ul,
 .contact li {
 	list-style-type: none;
+	
 }
 
 
