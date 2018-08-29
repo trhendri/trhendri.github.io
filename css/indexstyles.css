@@ -281,7 +281,8 @@ body {
 	
 }
 
-/* The animation code */
+
+/* The animation code 
 .nav > a > li:hover,
 .github_logo:hover,
 .music_logo:hover {
@@ -295,6 +296,8 @@ body {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+*/
+
 
 
 /*     MUSIC / WHAT IM LISTENING TO PAGE     */
