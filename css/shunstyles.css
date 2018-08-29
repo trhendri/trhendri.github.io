@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding:0;
+
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+
+}
+
+
+
+
+
+.header {
+	text-align: center;
+	color: white;
+	background-color: #232323;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-transform: uppercase;
+	
+	
+}
+
+h1:hover, h3:hover, h4:hover, .journal:hover {
+	color: red;
+}
+
+.header h1{
+	font-size: 12em;
+	line-height: .75em;
+	letter-spacing: -.11em;
+}
+.header h1, .header h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+}
+.magazine{
+	font-size:3em;
+	letter-spacing: .5em;
+	
+}
+.journal {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700; 
+	font-size:1em;
+	letter-spacing: .1em;
+}
+
+h4 {
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	line-height: .9em;
+	letter-spacing:-.04em; 
+
+}
+
+h5{
+	background-color: black;
+	color:white;
+	
+}
+
+/* add text-overflow to article */
+
+.row1{
+	padding-top: 20px;
+}
+.newspaper {
+	column-count: 5;
+	display: block;
+
+}
+
+.newstitle {
+	column-span: all;
+}
+
+/** add depth with shadow using hr **/
+
+
+
+.social li, .nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.fa {
+	font-size: 2em;
+	padding: 10px;
+	
+	
+}
+
+#game {
+	height:auto;
+	width: auto;
+	
+}
+
+footer {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	background-color: lightgrey;
+}
