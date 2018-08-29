@@ -287,9 +287,9 @@ margin-top: 2px;
 }
 
 
+/*
 
-
-/* The animation code */
+/* The animation code 
 .nav > a > li:hover,
 .github_logo:hover,
 .music_logo:hover {
@@ -304,6 +304,7 @@ margin-top: 2px;
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+*/
 
 /*     MUSIC / WHAT IM LISTENING TO PAGE     */
 .music_container {
@@ -489,7 +490,7 @@ margin-top: 30px;
 	border-top: transparent;
 }
 
-	.email_logo,
+	/*.email_logo,
 	.github_logo,
 	.music_logo {
    	 position: relative;
@@ -502,6 +503,7 @@ margin-top: 30px;
 	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); 
 	} }
 	
+	*/
 
 	.projects_container .col-md-5 {
 		padding: 0;
