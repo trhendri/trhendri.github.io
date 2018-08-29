@@ -266,7 +266,7 @@ body {
 	border-top: transparent;
 }
 
-	.email_logo,
+	/*.email_logo,
 	.github_logo,
 	.music_logo {
    	 position: relative;
@@ -278,7 +278,7 @@ body {
 		@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); 
 	} }
-	
+	*/
 }
 
 
